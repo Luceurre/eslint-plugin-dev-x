@@ -1,0 +1,40 @@
+{
+  "name": "eslint-plugin-dev-x",
+  "version": "0.0.6",
+  "description": "enforce good programming habits",
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin"
+  ],
+  "author": "Pierre Glandon",
+  "main": "lib/index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "mocha tests --recursive"
+  },
+  "dependencies": {
+    "eslint-import-resolver-node": "^0.3.6",
+    "eslint-module-utils": "^2.7.1",
+    "requireindex": "^1.1.0",
+    "tsconfig-paths": "^3.11.0"
+  },
+  "devDependencies": {
+    "@types/eslint": "^7.28.1",
+    "@types/node": "^16.11.0",
+    "@typescript-eslint/parser": "^5.0.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.1.0",
+    "eslint-plugin-eslint-plugin": "^3.2.0",
+    "eslint-plugin-node": "^11.0.0",
+    "mocha": "^9.0.0",
+    "typescript": "^4.4.4"
+  },
+  "engines": {
+    "node": "12.x || 14.x || >= 16"
+  },
+  "peerDependencies": {
+    "eslint": ">=6"
+  },
+  "license": "ISC"
+}
