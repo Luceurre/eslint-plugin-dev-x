@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-dev-x",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "enforce good programming habits",
   "keywords": [
     "eslint",
